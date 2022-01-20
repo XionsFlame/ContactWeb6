@@ -1,6 +1,7 @@
 using ContactWeb6.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using MyContactManagerData;
 
 var builder = WebApplication.CreateBuilder(args);
 

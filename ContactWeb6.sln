@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactWeb6", "ContactWeb6\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactWebModels", "ContactWebModels\ContactWebModels.csproj", "{D51AAA3B-FC1C-4202-A7B1-6E1FED76ECC6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyContactManagerData", "MyContactManagerData\MyContactManagerData.csproj", "{51BD5E32-724B-47D6-A58A-EAFE66A33E8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D51AAA3B-FC1C-4202-A7B1-6E1FED76ECC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D51AAA3B-FC1C-4202-A7B1-6E1FED76ECC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D51AAA3B-FC1C-4202-A7B1-6E1FED76ECC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51BD5E32-724B-47D6-A58A-EAFE66A33E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51BD5E32-724B-47D6-A58A-EAFE66A33E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51BD5E32-724B-47D6-A58A-EAFE66A33E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51BD5E32-724B-47D6-A58A-EAFE66A33E8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
