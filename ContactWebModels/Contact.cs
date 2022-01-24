@@ -31,13 +31,11 @@ namespace ContactWebModels
         [Display(Name = "Mobile Phone")]
         [Required(ErrorMessage = "Phone is Required")]
         [StringLength(ContactManagerConstants.MAX_PHONE_LENGTH)]
-        [EmailAddress(ErrorMessage = "Invalid Phone Address")]
         public string PhonePrimary { get; set; }
 
         [Display(Name = "Home/Office Phone")]
         [Required(ErrorMessage = "Phone number is Required")]
         [StringLength(ContactManagerConstants.MAX_PHONE_LENGTH)]
-        [EmailAddress(ErrorMessage = "Invalid Phone Address")]
         public string PhoneSecondary { get; set; }
 
         [DataType(DataType.Date)]
